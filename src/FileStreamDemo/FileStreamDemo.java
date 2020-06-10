@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class FileStreamDemo {
-	private static final String filepath = "F:\\Éç»áÊµ¼ù.doc";
+	private static final String filepath = "E:\\\\eclipse-workspace\\\\JavaBase\\\\src\\\\FileStreamDemo\\\\FileDemo.java";
 
 	public static void main(String[] args) throws IOException {
 		File file = new File(filepath);
