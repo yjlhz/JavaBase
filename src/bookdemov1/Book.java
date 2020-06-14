@@ -18,6 +18,15 @@ public class Book {
 		
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj == null || !(obj instanceof Book)) {
+			return false;
+		}
+		Book book = (Book)obj;
+		return bookId.equals(book.getBookId());//比较图书的编号
+	}
+	
 	public String getBookId() {
 		return bookId;
 	}
