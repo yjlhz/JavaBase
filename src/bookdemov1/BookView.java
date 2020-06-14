@@ -56,7 +56,7 @@ public class BookView {
 	/**
 	 * 新增图书的界面
 	 */
-	public Book showAddNewBookView() {
+	public void showAddNewBookView() {
 		System.out.println("\n傻x管理系统 >> 增加图书");
 		System.out.println("请输入图书编号:");
 		String bookId = input.next();
@@ -73,9 +73,8 @@ public class BookView {
 		}else {
 			//如果图书已存在 - 提示用户，然后递归调用本方法
 			System.out.println("图书已存在，请重新输入!");
-			newBook = showAddNewBookView();
+			showAddNewBookView();
 		}
-		return newBook;
 	}
 	/**
 	 * 显示所有的图书信息
