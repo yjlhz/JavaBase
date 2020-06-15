@@ -56,11 +56,11 @@ public class BookView {
 			showBooks(BookDates.bookStore);
 			break;
 		case 7: 
-			System.exit(0);;
-			break;
+			return;
 		default:
 			break;
 		}
+		showMainView();
 	}
 	/**
 	 * 新增图书的界面
@@ -112,8 +112,7 @@ public class BookView {
 			System.out.println("你所查找的图书不存在,请重新输入!");
 			showFindById();
 		}else {
-			System.out.println("图书编号\t图书名称\t\t图书库存");
-			System.out.printf("%s\t%s\t\t%d\n",Findbook.getBookId(),Findbook.getBookName(),Findbook.getCount());
+			showBooks(Findbook);
 		}
 	}
 	/**
