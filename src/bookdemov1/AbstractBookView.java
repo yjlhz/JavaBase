@@ -2,8 +2,9 @@ package bookdemov1;
 
 /**
  * 规范固定的实现逻辑
- * @author Lenovo
+ * @author yjlhz
  *
+ * 2020年6月16日
  */
 public abstract class AbstractBookView {
 	public AbstractBookView(){

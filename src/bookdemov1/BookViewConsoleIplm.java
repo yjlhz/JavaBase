@@ -4,8 +4,9 @@ import javax.swing.JOptionPane;
 
 /**
  * 图书管理系统的控制台实现
- * @author Lenovo
+ * @author yjlhz
  *
+ * 2020年6月16日
  */
 public class BookViewConsoleIplm extends AbstractBookView {
 	private BookBiz bookBiz = null;

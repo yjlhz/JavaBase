@@ -9,7 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * 读写文件的类
+ * 读写文件
  * @author Lenovo
  *
  */
