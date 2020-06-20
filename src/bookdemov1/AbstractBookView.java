@@ -1,17 +1,17 @@
 package bookdemov1;
 
 /**
- * ¹æ·¶¹Ì¶¨µÄÊµÏÖÂß¼­
+ * ï¿½æ·¶ï¿½Ì¶ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ß¼ï¿½
  * @author yjlhz
  *
- * 2020Äê6ÔÂ16ÈÕ
+ * 2020ï¿½ï¿½6ï¿½ï¿½16ï¿½ï¿½
  */
 public abstract class AbstractBookView {
 	public AbstractBookView(){
 	
 	}
 	/**
-	 * ÊµÏÖ¹Ì¶¨µÄ³ÌÐòÂß¼­
+	 * Êµï¿½Ö¹Ì¶ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ß¼ï¿½
 	 */
 	public void doMainView() {
 		String choice = showMainView();
@@ -46,33 +46,35 @@ public abstract class AbstractBookView {
 		doMainView();
 	}
 	/**
-	 * ÏÔÊ¾Ö÷²Ëµ¥
-	 * @return ·µ»ØÓÃ»§Ñ¡ÔñµÄ¹¦ÄÜÐèÇó(1-7)
+	 * ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ëµï¿½
+	 * @return ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ñ¡ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(1-7)
 	 */
 	public abstract String showMainView();
 	/**
-	 * ÐÂÔöÍ¼ÊéµÄ½çÃæ
+	 * ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½Ä½ï¿½ï¿½ï¿½
 	 */
 	public abstract void showAddNewBookView();
 	/**
-	 * É¾³ýÍ¼ÊéµÄÖ÷½çÃæ
+	 * É¾ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public abstract void showDelBookView();
 	/**
-	 * °´±àºÅ²éÑ¯Ö÷½çÃæ
+	 * ï¿½ï¿½ï¿½ï¿½Å²ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	public abstract void showFindById();
+
 	/**
-	 * °´Í¼ÊéµÄ±àºÅÈë¿â
+	 * è§£é‡Š
 	 */
+
 	public abstract void showInStoreById();
 	/**
-	 * ÊµÏÖ°´±àºÅ³ö¿â
+	 * Êµï¿½Ö°ï¿½ï¿½ï¿½Å³ï¿½ï¿½ï¿½
 	 */
 	public abstract void showOutStoreById();
 
 	/**
-	 * ÏÔÊ¾ËùÓÐµÄÍ¼ÊéÐÅÏ¢
+	 * ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ðµï¿½Í¼ï¿½ï¿½ï¿½ï¿½Ï¢
 	 * @param bookArray
 	 */
 	public abstract void showBooks(Book ...bookArray);
