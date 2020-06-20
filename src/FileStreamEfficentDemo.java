@@ -12,6 +12,7 @@ public class FileStreamEfficentDemo {
 	
 	public static void main(String[] args) {
 		long time = FileStreamEfficent();
+
 		System.out.println("不用缓存复制用时:" + time + "毫秒");
 	}
 	
