@@ -1,6 +1,6 @@
 package jdbc;
 
-import org.junit.Test;
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class JDBCInsertDemo {
-    @Test
+
     public void testInsert(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -27,7 +27,7 @@ public class JDBCInsertDemo {
         }
 
     }
-    @Test
+
     public void update(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -45,7 +45,6 @@ public class JDBCInsertDemo {
             throwables.printStackTrace();
         }
     }
-    @Test
     public void testdelete(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
